@@ -11,7 +11,7 @@ I like self-development, learning new things
 * JavaScript (In the process of studying)
 ## Code Example
     function sum(a, b) {
-       return a + b;
+    return a + b;
     }
     lit result = sum(1,2);
     alert( result );
