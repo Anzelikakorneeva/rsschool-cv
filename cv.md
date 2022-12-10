@@ -21,4 +21,4 @@ I have no programming experience
 * *University*: Belarusian State Academy of Communications, 
 specialty "Electronic government"
 ## English
-(A1) - initial
+(A1) - English level
