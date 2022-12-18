@@ -22,7 +22,13 @@ body {
     text-transform: uppercase;
 }
 h1 {
-   font-weight: 300; 
+   font-weight: 400; 
    border-bottom:  rgb(104, 102, 102) solid 1px;
    letter-spacing: 0.1em;
 }
+h2 {
+    font-weight: 400;
+    text-transform: uppercase; 
+    border-bottom:  rgb(104, 102, 102) solid 1px;
+}
+
