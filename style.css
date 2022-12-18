@@ -5,15 +5,22 @@ body {
     padding: 0;
 }
 .wrapper {
+    margin: 0 auto;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1600px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .profile {
-    background-color: rgb(233, 232, 231); 
+    background-color: rgb(252, 229, 249); 
+    padding: 50px 50px 20px 70px ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .photo {
+ object-fit: cover;   
  border-radius: 5%;
  }
 .header {
@@ -30,5 +37,52 @@ h2 {
     font-weight: 400;
     text-transform: uppercase; 
     border-bottom:  rgb(104, 102, 102) solid 1px;
+    text-align: center;
+    padding-bottom: 10px;
 }
+p {
+    font-size: 1.6em;
+    padding-left: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.icon {
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.list {
+    font-size: 1.6em;
 
+}
+li {
+    padding-bottom: 10px;
+}
+.description {
+    padding: 50px 50px 50px 70px ;
+}
+.info {
+    padding-bottom: 20px;
+}
+.link {
+ font-size: 1.6em;   
+ text-decoration: none;
+ padding-top: 10px;
+ padding-left: 40px;
+ color: black;
+}
+.link:hover {
+    color: blue;
+}
+pre {
+    font-size: 1.6em; 
+    text-align: left; 
+    position: relative;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.cont {
+    padding-bottom: 40px;
+}
